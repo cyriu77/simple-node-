@@ -1,0 +1,20 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "project express mongodb nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "go index",
+    "dev": "nodemon index"
+  },
+  "author": "developer Cyriu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
